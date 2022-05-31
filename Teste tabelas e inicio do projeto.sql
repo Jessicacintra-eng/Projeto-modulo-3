@@ -4,6 +4,8 @@ SELECT * FROM game_of_thrones.`got_episodes_v4`;
 SELECT * FROM game_of_thrones.`houses_v1`; 
 SELECT * FROM game_of_thrones.`killer_records`;
 
+###Considerando as pessoas que foram as maiores assassinas do Dashboard de mortos, quanto tempo elas tiveram de tela? e em quantos episódios elas apareceram? 
+
 SELECT 
 	`got_screentimes`.`name`, 
     `got_screentimes`.`episodes`,
