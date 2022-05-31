@@ -8,7 +8,7 @@ FROM
 GROUP BY 
 	Season;
 
-##Quais são os 10 episódios mais bem avaliados da série? Quem foram os diretores desses episódios? Quais foram as temporadas com mais episódios dessa lista?
+##Quais são os 5 episódios mais bem avaliados da série? Quem foram os diretores desses episódios? Quais foram as temporadas com mais episódios dessa lista?
 SELECT 
      Season, Director, Episode, Rating 
 FROM 
@@ -16,9 +16,9 @@ FROM
 ORDER BY
      Rating desc
 LIMIT
-     10;
+     5;
 
-##Quais são os 10 episódios piores avaliados da série? Quem foram os diretores desses episódios? Quais foram as temporadas com mais episódios dessa lista?
+##Quais são os 5 episódios piores avaliados da série? Quem foram os diretores desses episódios? Quais foram as temporadas com mais episódios dessa lista?
 SELECT 
      Season, Director, Episode, Rating 
 FROM 
@@ -26,7 +26,7 @@ FROM
 ORDER BY
      Rating 
 LIMIT
-     10;
+     5;
      
 ##Quem foram os 5 diretores que mais dirigiram episódios na série? Seus episódios foram bem avaliados?
 SELECT
