@@ -4,6 +4,17 @@ SELECT * FROM game_of_thrones.`got_episodes_v4`;
 SELECT * FROM game_of_thrones.`houses_v1`; 
 SELECT * FROM game_of_thrones.`killer_records`;
 
+#Número de casas por região
+SELECT
+region, 
+count(house_name)
+FROM houses_v1
+Group by 
+region
+HAVING
+count(House_name) >= 1
+
+
 ###Considerando as pessoas que foram as maiores assassinas do Dashboard de mortos, quanto tempo elas tiveram de tela? e em quantos episódios elas apareceram? 
 
 SELECT 
