@@ -5,6 +5,8 @@ region,
 count(house_name)
 FROM houses_v1
 Group by 
-region
+region 
 HAVING
-count(House_name) >= 1
+count(House_name) >= 1 
+order by
+count(house_name) DESC
