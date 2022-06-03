@@ -1,0 +1,25 @@
+region,count(house_name)
+Reach,69
+Westerlands,55
+Riverlands,54
+North,48
+Crownlands,38
+"Iron Islands",35
+"Vale of Arryn",34
+Stormlands,34
+Dorne,29
+Unknown,19
+"North (Crannogmen)",8
+"Crownlands (Crackclaw Point)",7
+"North (Mountain Clans)",7
+"Crownlands (Dragonstone)",5
+"North (Wolfswood Clans)",5
+"Stormlands (Marcher Lords)",5
+"Iron Islands (Shield Islands)",4
+"Vale of Arryn (Sistermen)",4
+"Reach (Shield Islands)",4
+"North (Skagosi Clans)",3
+"Riverlands; North (formerly)",1
+"Iron Islands (origin); Riverlands",1
+"North; Reach (formerly)",1
+"Crownlands (origin); Riverlands (deposed)",1
