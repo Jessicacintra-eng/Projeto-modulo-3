@@ -1,3 +1,4 @@
+SELECT * FROM game_of_thrones.houses_v1;
 
 ##Quais foram os personagens que apareceram em mais episódios?
 SELECT 
@@ -17,5 +18,5 @@ FROM
 ORDER BY 
 	`got_screentimes`.`episodes` DESC;
 
-SELECT * FROM game_of_thrones.houses_v1;
+
 
